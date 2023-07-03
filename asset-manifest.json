@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KODWebsite/static/css/main.5e801eba.css",
-    "main.js": "/KODWebsite/static/js/main.56655583.js",
+    "main.js": "/KODWebsite/static/js/main.d35ce62c.js",
     "static/media/New Patient Forms (1).pdf": "/KODWebsite/static/media/New Patient Forms (1).b95bb33a1f3f3ab669bf.pdf",
     "static/media/IMG-0178.jpg": "/KODWebsite/static/media/IMG-0178.291d50daa2a8428565fb.jpg",
     "static/media/IMG-01781.jpg": "/KODWebsite/static/media/IMG-01781.98d6fa3fe437d83df30b.jpg",
@@ -10,10 +10,10 @@
     "static/media/IMG-02031-1.jpg": "/KODWebsite/static/media/IMG-02031-1.dc4577615f4b65824f30.jpg",
     "index.html": "/KODWebsite/index.html",
     "main.5e801eba.css.map": "/KODWebsite/static/css/main.5e801eba.css.map",
-    "main.56655583.js.map": "/KODWebsite/static/js/main.56655583.js.map"
+    "main.d35ce62c.js.map": "/KODWebsite/static/js/main.d35ce62c.js.map"
   },
   "entrypoints": [
     "static/css/main.5e801eba.css",
-    "static/js/main.56655583.js"
+    "static/js/main.d35ce62c.js"
   ]
 }
