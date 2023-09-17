@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navBar';
 import React from 'react';
 import Footer from './components/footer';
-
+import Herosection from './components/heroSection';
 import Home from './components/pages/home';
 import Aboutus from './components/pages/about-us';
 import Patientforms from './components/pages/patient-forms';
@@ -15,6 +15,7 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <Herosection />
         <Routes>
           <Route path='/' exact element={<Home />}></Route>
           <Route path='/about-us' exact element={<Aboutus />}></Route>
