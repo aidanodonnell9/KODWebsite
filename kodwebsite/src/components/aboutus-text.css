@@ -1,0 +1,21 @@
+.abtext {
+    background-color: transparent;
+    color: #0c2430;
+    height: 90vh;
+}
+
+.abtext>h1 {
+    color: #0c2430;
+    font-size: 1.7rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.abtext>p {
+    color: #0c2430;
+    font-size: 1.3rem;
+    width: 60%;
+    margin: 0 auto;
+}

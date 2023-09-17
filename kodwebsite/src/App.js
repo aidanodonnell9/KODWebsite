@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navBar';
 import React from 'react';
+// import Home from './components/pages/home';
 import Footer from './components/footer';
 import Herosection from './components/heroSection';
 import Home from './components/pages/home';
@@ -15,7 +16,8 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Herosection />
+        {/* <Herosection /> */}
+        <Home />
         <Routes>
           <Route path='/' exact element={<Home />}></Route>
           <Route path='/about-us' exact element={<Aboutus />}></Route>

@@ -1,23 +1,50 @@
-.sink {
-    height: 90vh;
-    width: 33.3333%;
+@media screen and (max-width: 768px) {
+    .abhead {
+        height: 10%;
+        width: 100%;
+    }
+
+    .abustext {
+        width: 50%;
+    }
 }
 
-.texts>h1 {
-    color: #0c2340;
-    font-size: 2vw;
-    text-align: center;
-    position: absolute;
-    top: 32%;
-    right: 10%;
-}
+@media screen and (min-width: 768px) {
+    .abhead {
+        float: left;
+        height: 90vh;
+        width: 33.333%;
+    }
 
-.texts>p {
-    color: #0c2340;
-    font-size: 1.5vw;
+    .abustext {
+        float: right;
+        height: 90vh;
+        top: 0;
+        width: 66.667%;
+    }
 
-    position: absolute;
-    width: 40%;
-    top: 45%;
-    right: 12%;
+    .allth {
+        height: 90vh;
+    }
+
+
+
+    .texts>h1 {
+        color: #0c2340;
+        font-size: 2vw;
+        text-align: center;
+        position: absolute;
+        top: 32%;
+        right: 10%;
+    }
+
+    .texts>p {
+        color: #0c2340;
+        font-size: 1.5vw;
+
+        position: absolute;
+        width: 40%;
+        top: 45%;
+        right: 12%;
+    }
 }
